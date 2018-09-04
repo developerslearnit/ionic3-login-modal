@@ -1,0 +1,25 @@
+<ion-content>
+    <ion-list no-lines>
+        <div class="login-top">
+        <h2 text-center>
+            <img src="assets/imgs/logo.png" alt="">
+        </h2>  
+
+        <h4 style="margin-top:2%" text-center text-white>
+            Company Name
+          </h4>
+        </div>
+        <ion-item>
+          <ion-input type="email" [(ngModel)]="email" placeholder="Email"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-input type="password"  [(ngModel)]="password"  placeholder="Password"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <button ion-button block color="primary" (click)="signIn()" >Sign in</button>
+        </ion-item>
+      
+      </ion-list>
+</ion-content>

@@ -1,14 +1,33 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="top-page">
+    <h2 text-center>
+        <img src="assets/imgs/logo.png" alt="">
+    </h2>
+    <h4 text-center text-white>Company Name</h4>
+      
+  </div>
+  <div class="middle-page">
+      <ion-row>
+          <ion-col>
+          <h3 text-right text-white>Welcome</h3>
+          </ion-col>
+      </ion-row>
+  </div>
+
+    <div class="bottom-page">   
+    <ion-row>
+        <button class="loginBtn" (click)="showLoginModal()" ion-button full  color="light">Sign In</button>  
+        </ion-row>
+      <ion-row>
+        <ion-col>
+          <button ion-button full clear color="light">Register</button>          
+        </ion-col>
+        <ion-col>
+            <button color="light" ion-button full clear >Explore</button>          
+        </ion-col>
+      </ion-row>
+  </div> 
 </ion-content>
+

@@ -1,3 +1,36 @@
 page-home {
+     .scroll-content,
+     fixed-content {
+          overflow: hiddden;
+          background: url(../assets/imgs/bg.png) no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
 
+          .top-page {
+               padding-top: 35%;
+               height: 50%;
+               h2 {
+                    img {
+                         max-width: 25% !important;
+                         background: #fff;
+                         ;
+                         padding: 5px;
+                         border-radius: 6px;
+                    }
+               }
+          }
+          .middle-page {
+               padding-top:4rem;
+               height: 34%;               
+              
+          }
+          .bottom-page {
+               height: 15%;
+               button.loginBtn {
+                    height: 3.7rem;
+               }
+          }
+     }
 }
